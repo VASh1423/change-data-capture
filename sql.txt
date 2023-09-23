@@ -1,0 +1,7 @@
+CREATE TABLE fruits (
+	id serial PRIMARY KEY,
+	name VARCHAR ( 50 ) NOT NULL,
+	cost INT NOT NULL
+);
+
+insert into fruits (name, cost) values ('apple', 10)
